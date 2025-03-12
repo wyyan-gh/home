@@ -6,7 +6,6 @@ export default defineConfig({
   lang: 'zh-CN', //语言，可选 en-US
   title: "YY の 主页",
   description: "A VitePress Site",
-  base: "/home/",
   head: [
     ['script', 
       { 
@@ -25,7 +24,7 @@ export default defineConfig({
     //   },
     // ],
     //fav图标
-    ['link', { rel: 'icon', href: '/home/logo.svg'}],
+    ['link', { rel: 'icon', href: '/logo.svg'}],
     //谷歌字体
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
