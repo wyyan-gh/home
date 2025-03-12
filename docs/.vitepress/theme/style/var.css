@@ -1,0 +1,57 @@
+/* var.css */
+
+/* 去掉所有超链接的下划线 */
+a {
+    text-decoration: none !important;
+}
+
+.vp-doc a {
+    text-decoration: none;
+}
+
+.VPDoc h1 {
+    background: -webkit-linear-gradient(10deg, #bd34fe 5%, #e43498 15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  :root {
+    /* 甜甜圈冰淇淋色系 */
+    --vp-c-brand-1: #FFB5E8;   /* 草莓奶霜粉，像云朵般软糯 */
+    --vp-c-brand-2: #A0E7FF;   /* 海洋泡泡蓝，带着透明感的薄荷汽水 */
+    --vp-c-brand-3: #DCCBFF;   /* 香芋绵绵紫，像融化的香草冰淇淋 */
+    --vp-c-brand-soft: rgba(255, 181, 232, 0.15); /* 柔光滤镜效果 */
+  }
+  
+  .dark {
+    /* 暗夜童话配色（加入星空闪烁感） */
+    --vp-c-brand-1: #FF9ED5;   /* 樱花果冻粉，带微光效果 */
+    --vp-c-brand-2: #73DFFF;   /* 极光薄荷蓝，仿佛会呼吸的渐变 */
+    --vp-c-brand-3: #C5A3FF;   /* 星云淡紫，加了点点星光 */
+    --vp-c-brand-soft: rgba(255, 158, 213, 0.18); /* 夜空中的极光薄雾 */
+  }
+  /* 以前的vp-c-brand已弃用 */
+  
+  :root {
+    /* hero标题渐变色 */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+  
+    /*hero logo背景渐变色 */
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+    --vp-home-hero-image-filter: blur(40px);
+  }
+  
+  /* 也可自行单独修改brand按钮 */
+  /* :root {
+    --vp-button-brand-border: #F6CEEC;
+    --vp-button-brand-text: #F6CEEC;
+    --vp-button-brand-bg: #D939CD;
+  
+    --vp-button-brand-hover-border: #F6CEEC;
+    --vp-button-brand-hover-text: #fff;
+    --vp-button-brand-hover-bg: #D939CD;
+  
+    --vp-button-brand-active-border: #F6CEEC;
+  } */
